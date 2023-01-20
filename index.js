@@ -1,6 +1,6 @@
 const fileNames = process.env.FILENAMES.split(" ");
 const user = process.env.USERNAME;
-const exitCode = 0;
+let exitCode = 0;
 
 if (fileNames.length > 0) {
   fileNames.forEach(file => {
