@@ -1,0 +1,19 @@
+{
+  "name": "check-pr-filenames",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dan-mba/check-pr-filenames.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dan-mba/check-pr-filenames/issues"
+  },
+  "homepage": "https://github.com/dan-mba/check-pr-filenames#readme"
+}
