@@ -27,7 +27,7 @@ jobs:
         with:
           files: "data/**"
 
-      - name: List all changed files
+      - name: Check changed files
         env:
           FILENAMES: ${{ steps.changed-files.outputs.all_changed_files }}
           USERNAME: ${{ github.actor }}
