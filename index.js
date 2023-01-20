@@ -7,7 +7,7 @@ if (fileNames.length > 0) {
     const splitFile = file.split("/");
     const userPart = splitFile[1];
     // Files not in data directory produce a warning
-    if(splitFile[0] === 'data') {
+    if(splitFile[0] !== 'data') {
       console.warn(`File ${file} included in a Pull Request with profile changes but not in the data directory.`);
       return;
     }
