@@ -8,7 +8,7 @@ if (fileNames.length > 0) {
     const userPart = splitFile[1];
     // Files not in data directory produce a warning
     if(splitFile[0] !== 'data') {
-      console.log(`::warning file=${file}::Included in Pull Request with profile changes but not in data directory.`);
+      console.log(`::warning ||${file} included in Pull Request with profile changes but not in data directory.`);
       return;
     }
     if ((userPart !== user ) && (userPart !== `${user}.json`)){
@@ -17,7 +17,7 @@ if (fileNames.length > 0) {
         return;
       }
       exitCode = 1;
-      console.log(`::error file=${file}::Filename does not mach user`);
+      console.log(`::error ::Filename ${file} does not mach user`);
     }
   });
 }
