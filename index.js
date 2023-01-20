@@ -17,7 +17,7 @@ if (fileNames.length > 0) {
         return;
       }
       exitCode = 1;
-      console.log(`::error ::Filename ${file} does not mach user`);
+      console.log(`::error ::Filename ${file} does not match user ${user}`);
     }
   });
 }
