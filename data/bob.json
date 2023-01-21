@@ -1,3 +1,4 @@
 {
-  "name": "Bob"
+  "name": "Bob",
+  "test": true
 }
