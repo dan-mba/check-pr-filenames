@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/dan-mba/check-pr-filenames/issues"
   },
-  "homepage": "https://github.com/dan-mba/check-pr-filenames#readme"
+  "homepage": "https://github.com/dan-mba/check-pr-filenames#readme",
+  "devDependencies": {
+    "eslint": "^8.32.0"
+  }
 }
