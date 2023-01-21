@@ -7,7 +7,7 @@ let exitCode = 0;
 if (baseFileNames.length > 0) {
   for(const file of baseFileNames) {
     const index = fileNames.indexOf(file);
-    if (index > 0) {
+    if (index >= 0) {
       fileNames.splice(index, 1)
     }
   }
