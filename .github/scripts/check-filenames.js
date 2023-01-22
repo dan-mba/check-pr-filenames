@@ -1,5 +1,5 @@
-const fileNames = process.env.FILENAMES.split(" ");
-const baseFileNames = process.env.BASE_FILENAMES.split(" ");
+const fileNames = process.env.FILENAMES.split(' ');
+const baseFileNames = process.env.BASE_FILENAMES.split(' ');
 const user = process.env.USERNAME;
 let exitCode = 0;
 
@@ -16,7 +16,7 @@ if (baseFileNames.length > 0) {
 
 if (fileNames.length > 0) {
   fileNames.forEach(file => {
-    const splitFile = file.split("/");
+    const splitFile = file.split('/');
     const userPart = splitFile[1];
     // Files not in data directory produce a warning
     if(splitFile[0] !== 'data') {
@@ -30,7 +30,7 @@ if (fileNames.length > 0) {
     }
     if ((userPart !== user ) && (userPart !== `${user}.json`)){
       // Allow for testimonials
-      if((splitFile.length == 4) && (splitFile[2] === "testimonials") && (splitFile[3] === `${user}.json`)) {
+      if((splitFile.length == 4) && (splitFile[2] === 'testimonials') && (splitFile[3] === `${user}.json`)) {
         return;
       }
       exitCode = 1;
