@@ -26,6 +26,7 @@ if (fileNames.length > 0) {
     if (!file.endsWith('.json')){
       exitCode = 1;
       console.log(`::error ::Filename ${file} does not end with '.json'`);
+      return;
     }
     if ((userPart !== user ) && (userPart !== `${user}.json`)){
       // Allow for testimonials
