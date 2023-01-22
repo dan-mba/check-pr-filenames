@@ -23,7 +23,7 @@ if (fileNames.length > 0) {
       console.log(`::warning ::${file} included in Pull Request with profile changes but not in data directory.`);
       return;
     }
-    if {!file.endsWith('.json')}{
+    if (!file.endsWith('.json')){
       exitCode = 1;
       console.log(`::error ::Filename ${file} does not end with '.json'`);
     }
