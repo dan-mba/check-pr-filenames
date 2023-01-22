@@ -1,4 +1,5 @@
 {
   "name": "Bob",
-  "test": true
+  "test": true,
+  "test2": false
 }
