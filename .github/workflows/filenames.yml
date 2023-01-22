@@ -34,4 +34,4 @@ jobs:
           FILENAMES: ${{ steps.changed-files.outputs.all_changed_files }}
           USERNAME: ${{ github.actor }}
         run: |
-          npm start
+          node .github/scripts/check-filenames.js
