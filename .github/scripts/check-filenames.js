@@ -8,6 +8,8 @@ if (baseFileNames.length > 0) {
   fileNames = fileNames.filter(file => !baseFileNames.includes(file));
 }
 
+console.log(fileNames);
+
 if (fileNames.length > 0) {
   fileNames.forEach(file => {
     const splitFile = file.split('/');
