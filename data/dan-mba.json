@@ -1,5 +1,6 @@
 {
   "name": "Dan",
   "test2": "test2",
-  "test3": false
+  "test3": false,
+  "filter": true
 }
