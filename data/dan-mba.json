@@ -3,5 +3,6 @@
   "test2": "test2",
   "test3": false,
   "filter": true,
-  "moretest": true
+  "moretest": true,
+  "evenmore": false
 }
