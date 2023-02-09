@@ -5,3 +5,4 @@ This is a demo repo for an action to ensure that [LinkFree](https://github.com/E
 The GitHub action workflow file is `.github/workflows/filenames.yml`
 <br>
 The node script that performs the checks is `.github/scripts/check-filenames.js`
+
