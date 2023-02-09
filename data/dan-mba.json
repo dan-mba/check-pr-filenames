@@ -4,5 +4,6 @@
   "test3": false,
   "filter": true,
   "moretest": true,
-  "evenmore": false
+  "evenmore": false,
+  "test77": 77
 }
